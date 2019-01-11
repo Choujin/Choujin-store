@@ -8,9 +8,14 @@
     <link rel="stylesheet" type="text/css" media="screen" href="styles/style.css">
     <link rel="stylesheet" href="styles/bootstrap-337.min.css">
     <link rel="stylesheet" href="font-awsome/css/font-awesome.min.css.">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
     <script src="main.js"></script>
     <script src="js/jquery-331.min.js"></script>
     <script src="js/bootstrap-337.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
   
     
@@ -61,16 +66,18 @@
     
     <div class="navbar-header">     <!-- navbar-header Begin -->
 
-    <img src="images/ecom-store-logo.jpg" alt="Game Store Logo" class="hidden-xs">
-    <img src="images/ecom-store-logo-mobile.jpg" alt="Game Store Logo Mobile" class="visible-xs">
+    
 
     <a href="index.php" class="navbar-brand home">      <!-- navbar-brand home Begin -->
     
-
+    <img src="images/ecom-store-logo.jpg" alt="Game Store Logo" class="hidden-xs">
+    <img src="images/ecom-store-logo-mobile.jpg" alt="Game Store Logo Mobile" class="visible-xs">
     
     </a>        <!-- navbar-brand home Finish -->
 
     <button class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
+
+    
 
 <span class="sr-only">Toggle Navigation</span>
 
@@ -161,6 +168,99 @@
     </div>      <!-- container Finish -->
     
     </div>      <!-- navbar navbar-default Finish -->
+
+        <div class="container" id="slider">     <!-- container Begin -->
+        
+        <div class="col-md-12">     <!-- col-md-12 Begin -->
+        
+        <div class="carousel slide" id="myCarousel" data-ride="carousel">        <!-- carousel slide Begin -->
+        
+        <ol class="carousel-indicators">        <!-- carousel-indicators Begin -->
+        
+        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        
+        </ol>       <!-- carousel-indicators Finish -->
+        
+        <div class="carousel-inner">        <!-- carousel-inner Begin -->
+        
+            <div class="item active">
+            
+            <img src="admin_area/slides_images/slide-1.jpg" alt="Slider Image 1">
+            
+            </div>
+            
+            <div class="item">
+            
+            <img src="admin_area/slides_images/slide-2.jpg" alt="Slider Image 2">
+            
+            </div>
+
+            <div class="item">
+            
+            <img src="admin_area/slides_images/slide-3.jpg" alt="Slider Image 3">
+            
+            </div>
+
+            <div class="item">
+            
+            <img src="admin_area/slides_images/slide-4.jpg" alt="Slider Image 4">
+            
+            </div>
+        
+        </div>      <!-- carousel-inner Finish -->
+
+        <a href="#myCarousel" class="left carousel-control" data-slide="prev">      <!-- left carousel-control Begin -->
+        
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+
+        </a>        <!-- left carousel-control Finish -->
+
+        <a href="#myCarousel" class="right carousel-control" data-slide="next">      <!-- right carousel-control Begin -->
+        
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+
+        </a>        <!-- right carousel-control Finish -->
+
+        </div>      <!-- carousel slide Finish -->
+        
+        </div>      <!-- col-md-12 Finish -->
+        
+        </div>      <!-- container Finish -->
+
+        <div class="advantages">        <!-- #advantages Begin -->
+        
+            <div class="container">     <!-- container Begin -->
+            
+            <div class="same-height-row">       <!-- same-height-row Begin -->
+            
+            <div class="col-sm-4">      <!-- col-sm-4 Begin -->
+            
+            <div class="box same-height">       <!-- box same-height Begin -->
+            
+            <div class="icon">      <!-- icon Begin -->
+            
+            <i class="fas fa-heart"></i>
+
+            </div>      <!-- icon Finish -->
+
+            <h3><a href="#">We Love Our Costumers</a></h3>
+
+            <p>We know to provide the best posible service ever</p>
+            
+            </div>      <!-- box same-height Finish -->
+            
+            </div>      <!-- col-sm-4 Finish -->
+            
+            </div>      <!-- same-height-row Finish -->
+            
+            </div>      <!-- container Finish -->
+        
+        </div>      <!-- #advantages Finish -->
 
 </body>
 </html>

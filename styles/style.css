@@ -74,9 +74,9 @@ body{
 .navbar-collapse .right{
     float: right;
 }
-.navbar-header{
+.navbar-brand{
     float: left;
-    padding: 5px 15px;
+    padding: 10px 15px;
     font-size: 18px;
     line-height: 20px;
     height: 70px;
@@ -94,7 +94,7 @@ body{
     background: #e7e7e7;
 }
 .padding-nav{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 .btn-primary{
     color: rgb(255, 255, 255);
