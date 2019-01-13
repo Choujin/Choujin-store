@@ -101,10 +101,10 @@
 
     <ul class="nav navbar-nav left">        <!-- "nav navbar-nav left Begin -->
 
-    <li class="active"> 
+    <li> 
         <a href="index.php">Home</a>
     </li>
-    <li>
+    <li class="active">
         <a href="shop.php">Shop</a>
     </li>
     <li>
@@ -169,162 +169,43 @@
     
     </div>      <!-- navbar navbar-default Finish -->
 
-        <div class="container" id="slider">     <!-- container Begin -->
-        
-        <div class="col-md-12">     <!-- col-md-12 Begin -->
-        
-        <div class="carousel slide" id="myCarousel" data-ride="carousel">        <!-- carousel slide Begin -->
-        
-        <ol class="carousel-indicators">        <!-- carousel-indicators Begin -->
-        
-        <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-        
-        </ol>       <!-- carousel-indicators Finish -->
-        
-        <div class="carousel-inner">        <!-- carousel-inner Begin -->
-        
-            <div class="item active">
-            
-            <img src="admin_area/slides_images/slide-1.jpg" alt="Slider Image 1">
-            
-            </div>
-            
-            <div class="item">
-            
-            <img src="admin_area/slides_images/slide-2.jpg" alt="Slider Image 2">
-            
-            </div>
+    <div id="content">       <!-- #content Begin -->
+        <div class="container">      <!-- container Begin -->
+            <div class="col-md-12">     <!-- col-md-12 Begin -->
 
-            <div class="item">
-            
-            <img src="admin_area/slides_images/slide-3.jpg" alt="Slider Image 3">
-            
-            </div>
+                <ul class="breadcrumb">     <!-- breadcrumb Begin -->
+                    <li>
+                        <a href="index.php">Home</a>
+                    </li>
+                    <li>
+                        Shop
+                    </li>
+                </ul>       <!-- breadcrumb Finish -->
 
-            <div class="item">
-            
-            <img src="admin_area/slides_images/slide-4.jpg" alt="Slider Image 4">
-            
-            </div>
-        
-        </div>      <!-- carousel-inner Finish -->
+            </div>      <!-- col-md-12 Finish -->
 
-        <a href="#myCarousel" class="left carousel-control" data-slide="prev">      <!-- left carousel-control Begin -->
-        
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
+                <div class="col-md-3">      <!-- col-md-3 Begin -->
 
-        </a>        <!-- left carousel-control Finish -->
+<?php
 
-        <a href="#myCarousel" class="right carousel-control" data-slide="next">      <!-- right carousel-control Begin -->
-        
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
+    include("includes/sidebar.php");
 
-        </a>        <!-- right carousel-control Finish -->
+?>
 
-        </div>      <!-- carousel slide Finish -->
-        
-        </div>      <!-- col-md-12 Finish -->
-        
-        </div>      <!-- container Finish -->
+                </div>      <!-- col-md-3 Finish -->
 
-        <div id="advantages">        <!-- #advantages Begin -->
-        
-            <div class="container">     <!-- container Begin -->
-            
-            <div class="same-height-row">       <!-- same-height-row Begin -->
-            
-            <div class="col-sm-4">      <!-- col-sm-4 Begin -->
-            
-            <div class="box same-height">       <!-- box same-height Begin -->
-            
-            <div class="icon">      <!-- icon Begin -->
-            
-            <i class="fas fa-heart"></i>
+                <div class="col-md-9">       <!-- col-md-9 Begin -->
+                    <div class="box">       <!-- box Begin -->
+                        <h1>Shop</h1>
+                        <p>
+                            Welcome to our online shop
+                        </p>
+                    </div>       <!-- box Finish -->
 
-            </div>      <!-- icon Finish -->    
+                    <div class="row">        <!-- row Begin -->
+                        <div class="col-md-4 col-sm-6 center-responsive">        <!-- col-md-4 col-sm-6 center-responsive Begin -->
 
-            <h3><a href="#">We Love Our Costumers</a></h3>
-
-            <p>We know to provide the best posible service ever</p>
-            
-            </div>      <!-- box same-height Finish -->
-            
-            </div>      <!-- col-sm-4 Finish -->
-
-            <div class="col-sm-4">      <!-- col-sm-4 Begin -->
-            
-            <div class="box same-height">       <!-- box same-height Begin -->
-            
-            <div class="icon">      <!-- icon Begin -->
-            
-            <i class="fas fa-tag"></i>
-
-            </div>      <!-- icon Finish -->
-
-            <h3><a href="#">Best Prices</a></h3>
-
-            <p>Compare us with another site, who have the best prices.</p>
-            
-            </div>      <!-- box same-height Finish -->
-            
-            </div>      <!-- col-sm-4 Finish -->
-
-            <div class="col-sm-4">      <!-- col-sm-4 Begin -->
-            
-            <div class="box same-height">       <!-- box same-height Begin -->
-            
-            <div class="icon">      <!-- icon Begin -->
-            
-            <i class="fa fa-thumbs-up"></i>
-
-            </div>      <!-- icon Finish -->
-
-            <h3><a href="#">100% Original Products</a></h3>
-
-            <p>We just offer you the best and original products</p>
-            
-            </div>      <!-- box same-height Finish -->
-            
-            </div>      <!-- col-sm-4 Finish -->
-            
-            </div>      <!-- same-height-row Finish -->
-            
-            </div>      <!-- container Finish -->
-        
-        </div>      <!-- #advantages Finish -->
-
-        <div id="hot">      <!-- #hot Begin -->
-
-        <div class="box">   <!-- box Begin -->
-
-        <div class="container">     <!-- container Begin -->
-
-        <div class="col-md-12">     <!-- col-md-12 Begin -->
-
-        <h2>
-            Our Latest Products
-        </h2>
-
-        </div>       <!-- col-md-12 Finish -->
-
-        </div>       <!-- container Finish -->
-
-        </div>      <!-- box Finish -->
-
-</div>      <!-- #hot Finish -->
-
-<div id="content" class="container">         <!-- container Begin -->
-
-<div class="row">        <!-- row Begin -->
-
-<div class="col-sm-4 col-sm-6 single">      <!-- col-sm-4 col-sm-6 single Begin -->
-
-<div class="product">       <!-- product Begin -->
+                        <div class="product">       <!-- product Begin -->
 
 <a href="details.php">
 
@@ -560,11 +441,13 @@
 
 </div>       <!-- product Finish -->
 
-</div>      <!-- col-sm-4 col-sm-6 single Finish -->
+                        </div>       <!-- col-md-4 col-sm-6 center-responsive Finish -->
+                    </div>       <!-- row Finish -->
 
-</div>       <!-- row Finish -->
+                </div>       <!-- col-md-9 Finish -->
 
-</div>      <!-- container Finish -->
+        </div>      <!-- container Finish -->
+    </div>      <!-- #content Finish -->
 
 </body>
 </html>
@@ -574,6 +457,3 @@
     include("includes/footer.php");
 
 ?>
-
-
-
