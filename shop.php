@@ -444,6 +444,18 @@
                         </div>       <!-- col-md-4 col-sm-6 center-responsive Finish -->
                     </div>       <!-- row Finish -->
 
+                    <center>
+                        <ul class="pagination">
+                            <li><a href="#">First Page</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">Last Page</a></li>
+                        </ul>
+                    </center>
+
                 </div>       <!-- col-md-9 Finish -->
 
         </div>      <!-- container Finish -->
